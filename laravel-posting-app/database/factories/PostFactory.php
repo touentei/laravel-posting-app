@@ -18,8 +18,8 @@ class PostFactory extends Factory
     {
         return [
             'user_id' => 18, // 固定値
-            'title' => fake()->realText(20), // ランダムタイトル
-            'content' => fake()->realText(100), // ランダムコンテンツ
+            'title' => fake()->realText(20,5), // ランダムタイトル
+            'content' => fake()->realText(100,5), // ランダムコンテンツ
         ];
     }
 }
